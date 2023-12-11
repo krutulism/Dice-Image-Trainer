@@ -5,6 +5,8 @@ from PySide6 import QtWidgets as qtw
 from PySide6 import QtCore as qtc
 from PySide6 import QtGui as qtg
 
+from x3d_indicator import Ui_MainWindow
+
 
 class Joystick:
     def __init__(self):
@@ -28,10 +30,11 @@ class CephWindow(qtw.QMainWindow):
     def __init__(self,*args,**kwargs):
         super().__init__(*args,**kwargs)
 
-        self.yes_button = qtw.QPushButton('Yes')
 
-        self.setCentralWidget(self.yes_button)
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
 
+        self.setWindowTitle('Extreme 3d Pro Indicator')
 
 if __name__ == "__main__":
     joystick = Joystick()

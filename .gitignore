@@ -1,3 +1,6 @@
+# Development Scripts from PySide
+pyside6-uic.exe
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
