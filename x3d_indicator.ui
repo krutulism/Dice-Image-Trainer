@@ -239,7 +239,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>X Axis</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -252,7 +252,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Y Axis</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -260,12 +260,12 @@
      <rect>
       <x>430</x>
       <y>210</y>
-      <width>49</width>
+      <width>61</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Twist Axis</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -278,7 +278,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Hat</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -291,7 +291,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>U Axis</string>
     </property>
    </widget>
   </widget>
